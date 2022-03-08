@@ -1,0 +1,30 @@
+@import 'navBar';
+@import 'header';
+@import 'capitulo1';
+
+$prmcolor: rgb(255, 255, 255);
+
+
+body{
+    margin:0;
+    background-color: $prmcolor;
+}
+
+.lato-300{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.lato-700{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(54, 54, 54);
+
+}
+
+a:hover{
+    color: rgb(54, 54, 54);
+}
